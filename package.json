@@ -1,8 +1,8 @@
 {
-  "name": "projetnsi",
+  "name": "zeldabylez",
   "version": "1.0",
-  "description": "defi zelda du prof",
-  "author": "diego le plus beau",
+  "description": "Reproduction Zelda NES",
+  "author": "LeZ",
   "scripts": {
     "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha --require ts-node/register 'test/*.test.ts'",
     "dev": "vite",
