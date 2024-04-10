@@ -16,7 +16,7 @@ export class SplashScreen extends AbstractScreen {
       game,
       state: new StateObserver(SplashScreenState.BlackScreen),
       backgroundColor: "#000",
-      title: "FAIT PAR DIEGO",
+      title: "By #LeZ",
       titleFontSize: "40px",
       titleColor: "#ebd834",
       message: "Appuie sur ENTER pour commencer.",
