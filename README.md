@@ -3,7 +3,6 @@
 ## 🔗 Liens Rapides
 
 > - [📂 Structure du Répertoire](#-structure-du-répertoire)
-> - [🧩 Modules](#-modules)
 > - [🚀 Démarrage Rapide](#-démarrage-rapide)
 >   - [⚙️ Installation](#️-installation)
 >   - [🤖 Exécution de Zelda-NES](#-exécution-de-zelda-nes)
