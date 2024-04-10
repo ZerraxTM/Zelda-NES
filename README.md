@@ -135,6 +135,7 @@
                 ├── SplashScreen.ts
                 ├── StoppedScreen.ts
                 └── WinScreen.ts
+```
 ---
 
 ## 🚀 Démarrage Rapide
