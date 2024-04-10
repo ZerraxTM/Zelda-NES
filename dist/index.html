@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <title>Projet - NSI</title>
+    <link rel="icon" href="./sprites/web/favicon.ico" />
+    <link rel="preload" href="./fonts/nintendo-nes-font.ttf" as="font">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <style>
+        @font-face {
+            font-family: "NES-font";
+            src: url("./fonts/nintendo-nes-font.ttf") format("truetype");
+        }
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            height: 100vh;
+            text-align: center;
+            overflow: hidden;
+            background-color: #ddd7d7;
+            color: white;
+            position: relative;
+        }
+
+        #background-video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1;
+            filter: blur(10px); 
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            height: 100%;
+            z-index: 1; 
+        }
+
+        canvas {
+            background: #000;
+            display: block;
+            border-radius: 15px;
+        }
+    </style>
+    <script type="module" crossorigin src="./assets/styles.js"></script>
+</head>
+<body>
+    <video autoplay muted loop id="background-video">
+        <source src="./sprites/web/zelda.mp4" type="video/mp4">
+    </video>
+
+    <main>
+        <button type="button" name="button" class="Button" id="startButton"></button>
+        <canvas id="canvas" style="display: none">Prend un meilleur navigateur si tu ne vois rien personellement j'utilise Firefox.</canvas>
+        <div id="help" style="display: none">
+            <div class="instructions">
+                <p>Appuie sur <kbd>U</kbd> pour attaquer. Appuie sur <kbd>I</kbd> pour ouvrir l'inventaire. Utilise les touches <kbd>A</kbd> <kbd>W</kbd> <kbd>D</kbd> <kbd>S</kbd> pour te déplacer.</p>
+                <p>Je suis en QWERTY. Si vous souhaitez passer en AZERTY, allez dans le fichier JS et modifiez les commandes dans le fichier styles.js, ligne 6247.</p>
+                <p>Ce jeu est réalisé avec amour ❤️ Carte reprise sur : <a href="https://github.com/asweigart/nes_zelda_map_data">https://github.com/asweigart/nes_zelda_map_data</a></p>
+            </div>
+        </div>
+    </main>   
+</body>
+</html>
