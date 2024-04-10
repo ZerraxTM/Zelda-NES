@@ -135,6 +135,7 @@
                 ├── SplashScreen.ts
                 ├── StoppedScreen.ts
                 └── WinScreen.ts
+---
 
 ## 🚀 Démarrage Rapide
 
@@ -157,6 +158,8 @@ cd Zelda-NES
 ```sh
 npm install
 ```
+---
+---
 
 ### 🤖 Exécution de Zelda-NES
 
@@ -174,7 +177,7 @@ Pour exécuter les tests, lancez :
 npm test
 ```
 
-
+---
 
 
 
