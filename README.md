@@ -138,7 +138,7 @@ npm install
 Utilisez la commande suivante pour exécuter Zelda-NES :
 
 ```sh
-npm run build && node dist/main.js
+npm run serve && node dist/main.js
 ```
 
 ### 🧪 Tests
