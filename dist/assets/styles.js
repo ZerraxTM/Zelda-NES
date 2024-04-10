@@ -6622,7 +6622,7 @@ class me extends pe {
       game: e,
       state: new C(0),
       backgroundColor: '#000',
-      title: 'PROF NSI > ALL',
+      title: 'ZELDA - NES',
       titleFontSize: '40px',
       titleColor: '#ebd834',
       message: 'Appuie sur ENTER pour commencer.',
